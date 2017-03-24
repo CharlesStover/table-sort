@@ -60,7 +60,8 @@ var tableSort = {
 
 
 		// Binary sort:
-		// Place needleElement into haystack where needleComparison belongs in the opposite direction of index.
+		// Place needleElement into haystack using needleComparison to navigate between lower and upper bounds.
+		// obverse (or reverse) determines if needleComparison should be greater than or less than the midpoint between lower and upper.
 		sortBinary: function(haystack, needleElement, needleComparison, lower, upper, obverse) {
 
 			// We've found its location (0 == 0 is first item being sorted).
