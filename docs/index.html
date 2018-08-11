@@ -1,0 +1,46 @@
+<!DOCTYPE>
+<html>
+  <head>
+    <title>Table Sort</title>
+    <meta name="description" content="A JavaScript snippet allowing users to sort tables alphanumerically." />
+    <meta name="keywords" content="javascript table sort, javascript table sorter, javascript table sorting, js table sort, js table sorter, js table sorting, table sort in javascript, table sort in js, table sorter in javascript, table sorter in js, table sorting in javascript, table sorting in js" />
+  </head>
+  <body>
+    <section>
+      <h2>About</h2>
+      <p>The Table Sort code snippet will automatically append &uarr; (up) and &darr; (down) arrows next to <code>&lt;th&gt;</code> text in the <code>&lt;thead&gt;</code> of any table with the class name <var>table-sort</var>. Clicking on the up arrow will sort the rows alphanumerically by that column's values. Clicking on the down arrow will, in contrast, sort the rows in reverse alphanumeric order.</p>
+      <p>If the <code>&lt;th&gt;</code> has the class name <var>table-sort-default</var>, then it is assumed the table is already sorted by that column. The default arrow for that column will then be &darr; (down) to reverse sort.</p>
+    </section>
+    <section>
+      <h2>Preview</h2>
+      <p>This is an example table with the class name <var>table-sort</var>. The <em>Numerical</em> <code>&lt;th&gt;</code> has the class name <var>table-sort-default</var>.</p>
+      <table class="bordered table-sort">
+        <thead>
+          <tr>
+            <th>Alphabetical</th>
+            <th class="table-sort-default">Numerical</th>
+            <th>Spanish</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr> <td>One</td>   <td>1</td>  <td>Uno</td>    </tr>
+          <tr> <td>Two</td>   <td>2</td>  <td>Dos</td>    </tr>
+          <tr> <td>Three</td> <td>3</td>  <td>Tres</td>   </tr>
+          <tr> <td>Four</td>  <td>4</td>  <td>Cuatro</td> </tr>
+          <tr> <td>Five</td>  <td>5</td>  <td>Cinco</td>  </tr>
+          <tr> <td>Six</td>   <td>6</td>  <td>Seis</td>   </tr>
+          <tr> <td>Seven</td> <td>7</td>  <td>Siete</td>  </tr>
+          <tr> <td>Eight</td> <td>8</td>  <td>Ocho</td>   </tr>
+          <tr> <td>Nine</td>  <td>9</td>  <td>Nueve</td>  </tr>
+          <tr> <td>Ten</td>   <td>10</td> <td>Diez</td>   </tr>
+        </tbody>
+      </table>
+    </section>
+    <section>
+      <h2>Use</h2>
+      <p>To use this script, you must append the <var>table-sort</var> class names to any <code>&lt;table&gt;</code>s to be sortable. You may optionally give any <code>&lt;th&gt;</code>s the <var>table-sort-default</var> class. Once you have one or more tables with the aforementioned class name, add the following script to the end of your document, just before <code>&lt;/body&gt;</code>:</p>
+      <pre><code>&lt;script src=&quot;https://charlesstover.com/table-sort.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;</code></pre>
+    </section>
+    <script type="text/javascript" src="table-sort-procedural.js"></script>
+  </body>
+</html>
