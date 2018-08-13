@@ -1,0 +1,19 @@
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: #202020;
+  color: #F0F0F0;
+}
+
+h2,
+th {
+  font-family: "Roboto Condensed", "Roboto", sans-serif;
+  text-align: center;
+}
+
+section {
+  margin: 0 auto;
+  max-width: 60rem;
+}
